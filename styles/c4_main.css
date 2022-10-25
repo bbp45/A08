@@ -23,8 +23,18 @@ main h2 {
 }
 main h3 {
 	font-size: 130%;
-	font-style: italic;
 	margin-left: 30px;
 }
 
+a:hover, a:focus {
+	font-style: italic;
+}
+
+.shadow {
+	text-shadow: 2px 2px 2px;
+	color: #800000;
+}
 /* the styles for the footer */
+footer p {
+	text-align: center;
+}
